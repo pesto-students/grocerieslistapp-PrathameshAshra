@@ -1,0 +1,51 @@
+/* Primary 84DCC6 */
+/* Secondary 84DCC6 */
+/* Third 478978 */
+.h100{
+    height: 100%;
+}
+.w-70{
+    width: 70% !important;
+}
+.loginScreen__background{
+    background-color:#efefef;
+    height: 100vh;
+}
+.landingImage{
+    width: 70%;
+    padding: 30px;
+}
+.loginForm__container{
+    display: flex;
+    flex-direction: column  ;
+    width: 300px;
+    margin: auto;
+    padding: 30px;
+
+}
+.SignUpForm__container{
+    display: flex;
+    flex-direction: column  ;
+    width: 300px;
+    margin: auto;
+    padding: 30px;
+
+}
+#groceryView{
+    display: none;
+    background-color:#efefef;
+    height: 100vh;
+}
+.addButtonGrocery{
+    cursor: pointer;
+    padding: 5px 10px;
+    color: black;
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 15px;
+}
+.groceryRow{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
