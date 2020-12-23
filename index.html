@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groceries List App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+
+<body>
+   
+            <div class="container-fluid loginScreen__background"  id="loginView">
+              <div class="row h100">
+                <div class="col-md-6 p-5">
+                    <h1>GroceryApp</h1>
+                    <img class="landingImage" src="./assets/undraw_Online_shopping_re_k1sv.svg" alt="">
+                    <div class="loginForm__container"  >
+                        <h3>Log in</h3>
+
+                        <label for="validation_username">Username</label>
+                        <input  class="form-control mb-2" type="text" name="validation_username" id="validation_username">
+                        <label for="validation_Password">Password</label>
+
+                        <input  class="form-control mb-2" type="text" name="validation_username" id="validation_Password" class="mb-3">
+                        <input   type="submit"  class="btn btn-primary" onclick="validateUserPassword()" value="Log in">
+                    </div>
+                   
+                </div>
+                <div class="col-md-6">
+                    <div class="SignUpForm__container">
+                        <h3>Create a new user</h3>
+                        <label for="register_username">Username</label>
+
+                        <input  class="form-control" type="text" name="register_username" id="register_username">
+                        <label for="register_password">Password</label>
+
+                        <input  class="form-control" type="text" name="register_password" id="register_password"class="mb-3">
+                        <input type="submit"  class="btn btn-primary" onclick="registerUser()" value="Signup">
+                    </div>
+                      
+
+                   
+                </div>
+              </div>
+            </div>
+
+    
+        <div class="container-fluid" id="groceryView">
+            <div class="row">
+                <div class="col-md-6 p-5">
+                   
+                    <label for="addGrocery">Add your Item</label>
+                    <input  class="w-70 form-control d-inline-block " type="text" name="addGrocery" id="addGrocery">
+                    <!-- <span class="addButtonGrocery" class="btn btn-primary" onclick="addToCart()">+</span> -->
+                    <button class="addButtonGrocery btn btn-primary" type="button"onclick="addToCart()" >+</button>
+
+                </div>
+                <div class="col-md-3 p-5">
+                    <h3>Cart</h3>
+                    <div id="groceryContainer">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    <script src="scripts.js"></script>
+
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

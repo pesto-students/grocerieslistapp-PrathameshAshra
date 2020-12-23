@@ -1,0 +1,19 @@
+{
+  "name": "pesto",
+  "version": "1.0.0",
+  "description": "The Groceries List App\r A product company is planing to launch a responsive personal 'groceries-List app'. You have been awarded a chance to present your (working) design using local/session storage to meet the requirements mentioned in the MVP below.\r MVP Requirement\r Ask the user to enter his/her name to 'fetchOld' or 'createNew' list,\r Let the user access her/his Groceries List by entering their name (*save only the last 3 user's data)\r Validate the string for user's name to access her/his list & its properties\r The app should clearly communicate all exceptions",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrathameshAshra/grocery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrathameshAshra/grocery/issues"
+  },
+  "homepage": "https://github.com/PrathameshAshra/grocery#readme"
+}
